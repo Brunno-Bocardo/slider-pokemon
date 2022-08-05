@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
+    <link rel="shortcut icon" href="img/pokebola.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <img class="pokebola" src="img/pokebola.png" alt="imagem da pokebola" />
+      <h1 class="titulo">Meu time Pokémon</h1>
+    </header>
+    <main class="pokemon-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="img/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="cards">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Tyranitar</h2>
+            <p class="hp">HP 780</p>
+          </div>
+          <div class="container-imagem">
+            <img
+              src="img/Tyranitar.png"
+              alt="Tyranitar"
+              class="imagem-pokemon"
+            />
+          </div>
+          <div class="infos">
+            <h3 class="descricao">Descrição</h3>
+            <p class="texto">
+              Um Tyranitar é tão poderosamente poderoso, que pode derrubar toda
+              uma montanha para fazer seu ninho. Vagueia nas montanhas buscando
+              novos adversários para lutar.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="nome">Chandelure</h2>
+            <p class="hp">HP 500</p>
+          </div>
+          <div class="container-imagem">
+            <img src="img/Chandelure.png" alt="Chandelure" />
+          </div>
+          <div class="infos">
+            <h3 class="descricao">Descrição</h3>
+            <p class="texto">
+              Agitando as chamas de seus braços, ele coloca seus inimigo em
+              transe. Os espíritos queimados em sua chama sinistra, perdem o
+              caminho e vagam neste mundo para sempre.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="nome">Lapras</h2>
+            <p class="hp">HP 750</p>
+          </div>
+          <div class="container-imagem">
+            <img src="img/Lapras.png" alt="Lapras" />
+          </div>
+          <div class="infos">
+            <h3 class="descricao">Descrição</h3>
+            <p class="texto">
+              Lapras é um Pokémon marinho e possui um casco quase indestrutível.
+              É um Pokémon em extinção, mas pode ser encontrado nos mares
+              congelantes da região de Kanto.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-4">
+          <div class="informacoes">
+            <h2 class="nome">Heracross</h2>
+            <p class="hp">HP 600</p>
+          </div>
+          <div class="container-imagem">
+            <img
+              src="img/heracross.png"
+              alt="Heracross"
+              class="imagem-pokemon"
+            />
+          </div>
+          <div class="infos">
+            <h3 class="descricao">Descrição</h3>
+            <p class="texto">
+              Heracross espeta seu poderoso chifre sob a barriga de seus
+              inimigos e depois os arremessa. Geralmente dócil, mas, se
+              perturbado enquanto come mel, persegue o intruso com seu chifre.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-5">
+          <div class="informacoes">
+            <h2 class="nome">Sceptile</h2>
+            <p class="hp">HP 590</p>
+          </div>
+          <div class="container-imagem">
+            <img src="img/Sceptile.png" alt="Sceptile" />
+          </div>
+          <div class="infos">
+            <h3 class="descricao">Descrição</h3>
+            <p class="texto">
+              Este Pokémon é bastante ágil - salta pelos galhos de árvores e
+              surpreende seu adversário vindo de cima ou por trás. Sceptile
+              cuida das árvores na floresta com muito carinho.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-6">
+          <div class="informacoes">
+            <h2 class="nome">Snorlax</h2>
+            <p class="hp">HP 900</p>
+          </div>
+          <div class="container-imagem">
+            <img src="img/Snorlax.png" alt="Snorlax" />
+          </div>
+          <div class="infos">
+            <h3 class="descricao">Descrição</h3>
+            <p class="texto">
+              Um dia típico de Snorlax consiste em nada mais do que comer e
+              dormir. É um Pokémon tão dócil que há crianças que usam sua
+              barriga expansiva como um lugar para brincar.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="img/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
